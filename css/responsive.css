@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .nav-item-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        align-items: center;
+        padding: 20px;
+    }
+    .nav-item-container .follow{
+        margin: 30px;    
+        padding: 20px;
+        width: 220px;
+    }
+
+}
