@@ -21,7 +21,6 @@
         align-items: center;
         padding-left: 0;
         text-align: center;
-        /* margin-right: 30px; */
     }
     .banner-img .img{
         width: 80%;
@@ -31,10 +30,10 @@
         font-size: 30px;  
     }
     .banner-title .goat{
-        font-size: 30px;  
+        font-size: 40px;  
     }
     .banner-title p{
-        font-size: 10px;
+        font-size: 20px;
 
     }
     .banner-btn{
@@ -46,6 +45,11 @@
     }
     .btn{
         font-size: 10px;
+    }
+
+    .video-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 40px;
     }
     
 
@@ -78,6 +82,11 @@
     }
     .banner-btn{
         display: flex;
+    }
+
+    .video-container{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 30px;
     }
 
 }
