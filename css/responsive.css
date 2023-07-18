@@ -12,5 +12,72 @@
         padding: 20px;
         width: 220px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        background: none;
+    }
+    .banner-title{
+        width: 50%;
+        align-items: center;
+        padding-left: 0;
+        text-align: center;
+        /* margin-right: 30px; */
+    }
+    .banner-img .img{
+        width: 80%;
+        margin-left: 40px;
+    }
+    .banner-title h1{
+        font-size: 30px;  
+    }
+    .banner-title .goat{
+        font-size: 30px;  
+    }
+    .banner-title p{
+        font-size: 10px;
+
+    }
+    .banner-btn{
+        display: flex;
+
+    }
+    .btn-primary{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container,
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .nav-item-container{
+        width: 100%;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    .banner-container{
+        text-align: center;
+    }
+    .banner-title h1{
+        font-size: 30px;  
+    }
+    .banner-title .goat{
+        font-size: 40px;  
+    }
+    .banner-btn{
+        display: flex;
+    }
 
 }
