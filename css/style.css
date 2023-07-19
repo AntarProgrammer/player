@@ -156,15 +156,10 @@ body{
 
 .feature-content{
     text-align: right;
-    padding-left: 120px;
+    padding-left: 80px;
     padding-top: 150px;
 }
 
-.feature-title{
-    font-size: 40px;
-    font-weight: 700;
-
-}
 .feature-title .play{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -172,39 +167,69 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
+.feature-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
 .feature-description{
     font-size: 15px;
     font-weight: 400;
 
 }
-.img{
-    width: 80%;
+.feature-profile{
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.feature-content{
+    width: 40%;
 }
 .img-1{
-    width: 60%;
-    height: 50%;
+    width: 80%;
+    object-fit: cover;
 }
-.taking{
-    width: 400px;
+.img-2{
+    width: 60%;
+    object-fit: cover;
     position: relative;
-    bottom: 200px;
-    right: 50px;
+    top: 320px;
+    left: 200px;
 }
 
 /* game section started */
+.games{
+    border: 1px solid red;
+    max-width: 1400px;
+    margin: 120px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .games-container{
     display: flex;
-    /* min-height: 60px; */
     justify-content: space-around;
-    
-
 }
-.games-container img{
+.games-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: skyblue;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.games-container img,
+.games-content img
+{
     width: 50px;
     height: 50px;
 
 }
-.games-container p{
+.games-container p,
+.games-content p{
     font-size: 20px;
 }
 

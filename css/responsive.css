@@ -12,6 +12,8 @@
         padding: 20px;
         width: 220px;
     }
+
+    /* banner responsive started */
     .banner-container{
         flex-direction: column-reverse;
         background: none;
@@ -46,33 +48,47 @@
     .btn{
         font-size: 10px;
     }
+    /* banner responsive ended */
+     
 
+    /* video section responsive */
     .video-container{
         grid-template-columns: repeat(1,1fr);
         margin-left: 30px;
     }
+
+
+
     .feature-content{
-        padding-left: 5px;
-        padding-top: 10px;
+        max-width: 450px;
+        margin: 0 auto;
+        width: 60%;
         text-align: center;
+        padding: 10px;
     }
     .feature{
         flex-direction: column;
-        gap: 20px;
     }
     .feature-title{
         font-size: 20px;
     }
-    .img-1{
-        width: 50%;
-        bottom: 80px;
+    .feature-profile{
+        width: 70%;
+        text-align: center;
+        margin-right: 120px;
     }
-   .feature-profile{
-    padding-left: 80px;
-   }
-
+    .img-1{
+        width: 120%;
+        object-fit: cover;
+    }
+    .img-2{
+        width: 85%;
+        object-fit: cover;
+        position: relative;
+        top: 180px;
+        left: 65px;
+    }
 }
-
 
 /* tablet device */
 
@@ -122,6 +138,4 @@
     .feature{
         gap: 20px;
     }
-    
-
 }
