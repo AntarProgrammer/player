@@ -70,12 +70,10 @@ body{
      background-image: url("../images/Group\ 14.png");
      background-repeat: no-repeat;
 }
-
 .banner-title{
     width: 50%;
     padding-left: 80px;
 }
-
 .banner-title h1{
     font-size: 48px;
     font-weight: 600;
@@ -87,12 +85,10 @@ body{
     color: transparent;
     -webkit-background-clip: text;
 }
-
 .banner-title p{
     font-size: 20px;
     font-weight: 500;
 }
-
 .btn-primary{
     color: #fff;
     font-weight: 600;
@@ -120,9 +116,6 @@ body{
 }
 /* banner section ended */
 
-
-
-
 /* video section started */
 .video-container{
   display: grid;
@@ -139,7 +132,8 @@ body{
 .video-title{
     font-size: 40px;
     font-weight: 700;
-    padding: 10px;
+    padding: 10px; 
+    margin-bottom: 10px;
 }
 .video-description{
     font-size: 15px;
@@ -148,4 +142,54 @@ body{
     background: linear-gradient(to bottom,  #F948B2,#8758F1);
     color: transparent;
     -webkit-background-clip: text;
+}
+
+/* video section ended */
+
+/* feature section started */
+.feature{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin:  100px auto; 
+}
+
+.feature-content{
+    text-align: right;
+    padding-left: 120px;
+    padding-top: 150px;
+}
+
+.feature-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.feature-title .play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature-description{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.img{
+    width: 80%;
+
+}
+.img-1{
+    width: 60%;
+    height: 50%;
+    border: 10px solid #fff;
+}
+.taking{
+    width: 400px;
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+
+
 }

@@ -49,17 +49,38 @@
 
     .video-container{
         grid-template-columns: repeat(1,1fr);
-        margin-left: 40px;
+        margin-left: 30px;
     }
-    
+    .feature-content{
+        padding-left: 5px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .feature{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-title{
+        font-size: 20px;
+    }
+    .img-1{
+        width: 50%;
+        bottom: 80px;
+    }
+   .feature-profile{
+    padding-left: 60px;
+   }
 
 }
 
 
+/* tablet device */
+
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-container,
-    .banner-container{
+    .banner-container,
+    .feature{
         flex-direction: column;
     }
 
@@ -88,5 +109,19 @@
         grid-template-columns: repeat(2,1fr);
         margin-left: 30px;
     }
+    .feature-content{
+        padding-left: 5px;
+        padding-top: 10px;
+        text-align: center;
+
+    }
+    .feature-profile{
+        padding-left: 120px;
+       }
+
+    .feature{
+        gap: 20px;
+    }
+    
 
 }
