@@ -6,6 +6,7 @@
     .nav-item-container{
         align-items: center;
         padding: 20px;
+        font-size: 10px;
     }
     .nav-item-container .follow{
         margin: 30px;    
@@ -95,14 +96,12 @@
         margin: 0 auto;
         padding: 0;
     }
-
     .card{
         width: auto;
         height: auto;
         margin-right: 0;
 
     }
-
     .card:hover{
         color: #F948B2;
         border: 1px solid #F948B2;
@@ -115,6 +114,33 @@
     }
     .card p{
         font-size: 8px;
+    }
+
+    /* footer section */
+    .teams,
+    .services{
+        display: grid;
+        grid-template-columns: repeat(3, 80px);
+        font-size: 12px;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(3, 80px);
+        margin-left: 30px;
+    }
+
+    .teams{
+        display: grid;
+        grid-template-columns: repeat(2, 80px);
+        font-size: 10px;
+    }
+
+    .logo-container{
+        font-size: 25px;
+        gap: 15px;
+    }
+    .copy{
+        font-size: 10px;
     }
 }
 
