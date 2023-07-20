@@ -8,6 +8,9 @@
         padding: 20px;
         font-size: 10px;
     }
+    .nav-item-container .about{
+        margin: 30px;
+    }
     .nav-item-container .follow{
         margin: 30px;    
         padding: 20px;
