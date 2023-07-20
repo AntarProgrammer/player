@@ -79,6 +79,9 @@
     .feature-title{
         font-size: 20px;
     }
+    .feature-description{
+        font-size: 10px;
+    }
     .feature-profile{
         width: 70%;
         text-align: center;
@@ -123,6 +126,9 @@
     }
 
     /* footer section */
+    .footer{
+        margin-top: 20px;
+    }
     .teams,
     .services{
         display: grid;
@@ -171,8 +177,14 @@
     .banner-container{
         text-align: center;
     }
+    /* .banner-title{
+        margin-right: 50px;
+    } */
     .banner-title h1{
-        font-size: 30px;  
+        font-size: 20px;  
+    }
+    .banner-title p{
+        font-size: 10px;
     }
     .banner-title .goat{
         font-size: 40px;  
@@ -181,9 +193,6 @@
         display: flex;
         font-size: 10px;
         padding: 0;
-    }
-    .banner-title p{
-        font-size: 12px;
     }
 
     .video-container{
