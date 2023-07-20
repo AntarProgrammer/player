@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lato:wght@400;700;900&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Inconsolata', monospace;
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.gamer{
+
+.gamer {
     color: #FF42A5;
     font-weight: 700;
 }
-.nav{
+
+.nav {
     background-color: white;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 5px;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,26 +30,32 @@ body{
     min-height: 60px;
     margin: 0 auto;
 }
-.logo-container{
+
+.logo-container {
     display: flex;
 }
-.logo-container img{
+
+.logo-container img {
     width: 70px;
     height: 40px;
 }
-.logo-container p{
+
+.logo-container p {
     font-size: 30px;
 }
-.nav-item-container{
-   width: 50%;
-   display: flex;
-   justify-content: space-between;
+
+.nav-item-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
-.nav-item-container a{
-     text-decoration: none;
-     font-size: 20px;
+
+.nav-item-container a {
+    text-decoration: none;
+    font-size: 20px;
 }
-.follow{
+
+.follow {
     background-color: rgb(225, 216, 216);
     border-radius: 5px;
     padding: 5px;
@@ -54,35 +64,40 @@ body{
 
 /* banner section started */
 
-.banner-container{
+.banner-container {
     max-width: 1400px;
     margin: 60px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-     background-image: url("../images/Group\ 14.png");
-     background-repeat: no-repeat;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
 }
-.banner-title{
+
+.banner-title {
     width: 50%;
     padding-left: 80px;
 }
-.banner-title h1{
+
+.banner-title h1 {
     font-size: 48px;
     font-weight: 600;
 }
-.banner-title  .goat{
+
+.banner-title .goat {
     font-size: 95px;
     font-weight: 800;
-    background: linear-gradient(to bottom,  #F948B2,#8758F1);
+    background: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
     -webkit-background-clip: text;
 }
-.banner-title p{
+
+.banner-title p {
     font-size: 20px;
     font-weight: 500;
 }
-.btn-primary{
+
+.btn-primary {
     color: #fff;
     font-weight: 600;
     border-radius: 48px;
@@ -91,97 +106,141 @@ body{
     padding: 10px 20px;
     border: 0;
 }
-.btn{
+
+.btn {
     color: #fff;
     font-weight: 600;
     border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg,#4EC5F7 0%, #4EC5F7 100%));
+    background: var(--linear, linear-gradient(90deg, #4EC5F7 0%, #4EC5F7 100%));
     font-size: 20px;
     padding: 10px 20px;
     border: 0;
 }
-.banner-btn{
+
+.banner-btn {
     padding: 20px;
 }
-.banner-img .img{
+
+.banner-img .img {
     width: 500px;
     object-fit: cover;
 }
+
 /* banner section ended */
 
 /* video section started */
-.video-container{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  max-width: 1400px;
-  margin: 0 auto;
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
+    margin: 0 auto;
 }
- 
-.video-content{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.video-title{
+.video-title {
     font-size: 40px;
     font-weight: 700;
-    padding: 10px; 
+    padding: 10px;
     margin-bottom: 10px;
 }
-.video-description{
+.video-description {
     font-size: 15px;
 }
-.video-title .funny{
-    background: linear-gradient(to bottom,  #F948B2,#8758F1);
+.video-title .funny {
+    background: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
     -webkit-background-clip: text;
 }
 
+.video-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    width: 330px;
+}
+
+.container:hover .text {
+    visibility: visible;
+}
+
+.image img {
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(46, 42, 36);
+    opacity: .8;
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    color:#FF42A5;
+    visibility: hidden;
+}
+
+.container p {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
 /* video section ended */
 
 /* feature section started */
-.feature{
+.feature {
     display: flex;
     justify-content: space-between;
     max-width: 1400px;
-    margin:  100px auto; 
+    margin: 100px auto;
 }
 
-.feature-content{
+.feature-content {
     text-align: right;
     padding-left: 80px;
     padding-top: 150px;
 }
 
-.feature-title .play{
+.feature-title .play {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.feature-title{
+.feature-title {
     font-size: 40px;
     font-weight: 700;
 }
 
-.feature-description{
+.feature-description {
     font-size: 15px;
     font-weight: 400;
 
 }
-.feature-profile{
+
+.feature-profile {
     display: flex;
-    flex-direction:row-reverse ;
+    flex-direction: row-reverse;
 }
-.feature-content{
+
+.feature-content {
     width: 40%;
 }
-.img-1{
+
+.img-1 {
     width: 80%;
     object-fit: cover;
 }
-.img-2{
+
+.img-2 {
     width: 60%;
     object-fit: cover;
     position: relative;
@@ -191,7 +250,7 @@ body{
 
 /* game section started */
 
-.games-container{
+.games-container {
     display: flex;
     justify-content: center;
     max-width: 1400px;
@@ -199,7 +258,8 @@ body{
     flex-wrap: wrap;
     gap: 20px;
 }
-.card{
+
+.card {
     display: flex;
     align-items: center;
     background-color: white;
@@ -207,34 +267,40 @@ body{
     gap: 10px;
     margin-right: 30px;
 }
-.card img{
+
+.card img {
     width: 50px;
     height: 50px;
 }
-.card p{
+
+.card p {
     font-size: 14px;
 }
-.card:hover{
+
+.card:hover {
     color: #F948B2;
     border: 3px solid #F948B2;
 }
+
 /* game section ended */
 
 /* footer section started */
 
 
 
-.footer{
+.footer {
     background-color: black;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: column;
-    gap: 30px ;
+    gap: 30px;
     padding-bottom: 100px;
 
 }
-.logo-style{
+
+.logo-style {
     display: flex;
     margin-top: 100px;
     font-size: 45px;
@@ -243,16 +309,19 @@ body{
     justify-content: center;
 }
 
-.logo-style img{
+.logo-style img {
     width: 70px;
     height: 50px;
 }
-.icons{
+
+.icons {
     display: flex;
-     gap: 15px;
+    gap: 15px;
     justify-content: center;
 }
-.teams,.services{
+
+.teams,
+.services {
     display: flex;
     justify-content: center;
     font-size: 15px;
@@ -260,7 +329,8 @@ body{
     gap: 30px;
     color: rgba(255, 255, 255, 0.60);
 }
-.copy{
+
+.copy {
     text-align: center;
     color: rgba(255, 255, 255, 0.60);
 }
