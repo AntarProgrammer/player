@@ -216,7 +216,7 @@ body{
 }
 .card:hover{
     color: #F948B2;
-    border: 1px solid #F948B2;
+    border: 3px solid #F948B2;
 }
 /* game section ended */
 
